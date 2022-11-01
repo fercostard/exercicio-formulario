@@ -1,0 +1,98 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding:0;
+}
+
+body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 1em;
+}
+
+.caixa-principal{
+      display: flex;
+      flex-direction: column;
+      width: 29em;
+      height: 33em;
+      justify-content:space-between;
+      padding: 1em;
+      margin: 12px;
+      box-shadow: 1px  1px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.caixa-principal h3{
+	color: grey;
+
+}
+
+.caixa-principal p{
+      color: gray;
+      font-size: 0.8em;
+}
+
+.elemento-formulario{
+      display: flex;
+      justify-content: space-between;
+      gap: 0.4em;
+      
+}
+
+.elemento-formulario .resposta-input{
+      padding: 0.8em;
+      border-radius: 0.4em;
+      border-color: darkgray;
+      border-style: solid;
+      border-width: 1px;
+      width: 100%;
+      font-size: .9em;
+      font-weight: bolder;
+      
+}
+
+.elemento-formulario select{
+      padding: 0.5em;
+      border-radius: 0.4em;
+      border-color: darkgray;
+      border-style: solid;
+      border-width: 1px;
+      width: 100%;
+      font-size: .9em;
+      font-weight: bolder;
+}
+
+
+.elemento-formulario .resposta-radio{
+      padding: 0.5em;
+      border-radius: 0.4em;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkgray;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: .9em;
+      font-weight: bolder;
+}
+
+.enviar-formulario{
+      align-self: center;
+      padding: 0.6em;
+      background-color: green;
+      color: white;
+      font-weight: bold;
+      border-radius: .8em;
+      width: 10em;
+      border-width: 0;
+
+}
+
+
+
+
+
+
+
